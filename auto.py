@@ -17,7 +17,7 @@ class DaKa(object):
     def __init__(self, username, password, eai_sess, UUkey):
         self.username = username
         self.password = password
-        self.login_url = "http://ca.its.csu.edu.cn/home/login/215"
+        self.login_url = "https://ca.csu.edu.cn/authserver/login?service=http%3A%2F%2Fmy.csu.edu.cn%2Fportal%2Findex.jsp%3Bjsessionid%3D5CB6CA743AD76C7031D4B507BD3C5E08"
         self.redirect_url = "http://ca.its.csu.edu.cn/SysInfo/SsoService/215"
         self.base_url = "https://wxxy.csu.edu.cn/ncov/wap/default/index"
         self.save_url = "https://wxxy.csu.edu.cn/ncov/wap/default/save"
